@@ -1,0 +1,49 @@
+body{
+    background-color: #56585a;
+    font-family: 'Philosopher', sans-serif;
+    }
+nav{
+    background-color: rgb(209, 212, 222) !important;
+
+    margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+header img{
+    max-height: 30vh;
+    object-fit: cover;
+}
+.badge {
+    cursor: pointer;
+}
+.card{
+    cursor: pointer;
+    transition: all 1s;
+    box-shadow: 10px 10px rgb(209, 209, 213);
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    border: 10px solid;
+    border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  .gallery {
+    cursor: pointer;
+  }
+  .card:hover{
+    transform: scale(1.1);  }
